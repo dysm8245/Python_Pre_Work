@@ -37,6 +37,6 @@ def is_consecutive(a_list):
             if a_list[i] + 1 != a_list[i+1]:
                 return False
     return True
-result = is_consecutive([1,2,3,4,5,6])
+result = is_consecutive([1,2,3,4])
 print(result)
 
